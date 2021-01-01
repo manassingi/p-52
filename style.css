@@ -1,0 +1,139 @@
+
+h1 
+{
+    color:rgb(253, 11, 104)
+}
+h2{
+
+    color:rgb(243, 111, 102)
+}
+au
+{
+
+
+    color:rgb(253, 156, 11)
+    
+}
+
+
+al
+{
+
+    color:rgb(253, 156, 11)
+}
+pl
+{
+
+    color:rgb(253, 11, 92)
+}
+wl
+{
+
+    color:rgb(58, 39, 10)
+}
+ml
+{
+
+    color:rgb(148, 143, 71)
+}
+zl
+{
+
+    color:rgba(231, 114, 231, 0.726)
+}
+a
+{
+    color:rgb(253, 11, 11)
+}
+.origami
+{
+    border-radius: 20px;
+    background-color: #f1e9e9;
+    padding: 30px;
+    margin: 25px;
+    width: 310px ;
+    font-family: fantasy;
+}
+
+.header
+{
+
+    display: flex;
+    flex-flow: column wrap;
+
+
+}
+.menu
+{
+    display: flex;
+   justify-content: space-between;
+    background-color:#000000;
+   padding: 0px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+   
+   
+}
+body
+{
+    margin: 0px;
+    background-color:#f7f2f2;
+}
+.grid img
+{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:sans-serif; 
+}
+.bodyimg p{
+
+
+
+    color:#f7f2f2;
+        font-size: 55px;
+        font-family: fantasy;
+        position: absolute;
+        top:10%;
+        left:30%;
+        transform: translate(-50%,-50%);
+    
+    }
+    .bodyimg{
+        position: relative;
+    }
+    
+    .bodyimg h3{
+        color:#f7f2f2;
+        font-family: fantasy;
+        font-size: 20px;
+        width: 1300px;
+        position: absolute;
+        top:40%;
+        left:40%;
+        transform: translate(-42%, -38%);
+    }
+    a:link
+    {
+        color: #ff0000;
+        text-decoration: none
+    }
+    a:visited
+    {
+        color: #ffffff;
+       
+    }
+    .origami:hover
+{
+    transform: scale(0.9);
+}
+.menu:hover
+{
+    transform: scale(1);
+}
